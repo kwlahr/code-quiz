@@ -7,26 +7,159 @@
     <title>Code Quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-light bg-light">
         <ul>
-            <li>Code Quiz</li>
-            <li id="highScores"><a href="high-scores.html">High Scores</a></li>
+            <li id="title">Code Quiz</li>
+            <li id="highScores" class="nav-item"><a href="high-scores.html" style="color: black">High Scores</a> |</li>
         </ul>
-        <div class="timer"></div>
+        <div class="timer">Time remaining: </div>
     </nav>
 
-    <div class="card">
-        <h2>Question <!--#?--> </h2>
-        <div class="cardBody">
-            <!-- Question text -->
+    <div class="container" style="align-content: center">
+
+        <div class="card col-6" id="Start">
+            <div class="cardHeader">
+                <h2>Welcome to the Code Quiz</h2>
+            </div>
             <hr>
-            <!-- Question answers -->
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>Ready to start?</h3>
+                <br><br>
+                <!-- Question answers -->
+                <button type="button" class="btn btn-danger">Start Quiz</button>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="card col-6" class="question" id="q1">
+            <div class="cardHeader">
+                <h2>Question 1</h2>
+            </div>
+            <hr>
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>What are the building blocks of the web?</h3>
+                <br><br>
+                <!-- Question answers -->
+                <button type="button" class="answer correct btn btn-primary">HTML, CSS, and Javascript</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">Ed, Edd, and Eddy</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">Provolone, Gouda, and Feta</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">Spiders, Silk Worms, and Fishermen</button>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="card col-6" class="question" id="q2">
+            <div class="cardHeader">
+                <h2>Question 2</h2>
+            </div>
+            <hr>
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>What does HTML stand for?</h3>
+                <br><br>
+                <!-- Question answers -->
+                <button type="button" class="answer correct btn btn-primary">Hypertext Markup Language</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">Hypertext Madeup Language</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">Hypertext Markup Lorem</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">Hot Tamales Make Life</button>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="card col-6" class="question" id="q3">
+            <div class="cardHeader">
+                <h2>Question 3</h2>
+            </div>
+            <hr>
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>What is CSS?</h3>
+                <br><br>
+                <!-- Question answers -->
+                <button type="button" class="answer correct btn btn-primary">A coding language used to add styles to HTML</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">A Columbian Warship</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">That dude that wrote the Chronicles of Narnia?</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">A secret government code used during World War 2</button>
+                <br><br>
+
+            </div>
+        </div>
+
+        <div class="card col-6" class="question" id="q4">
+            <div class="cardHeader">
+                <h2>Question 4</h2>
+            </div>
+            <hr>
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>What is a Web Browser?</h3>
+                <br><br>
+                <!-- Question answers -->
+                <button type="button" class="answer correct btn btn-primary">A software application that allows a user to access websites via a URL</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">A person who is obsessed with spiders</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">A coding language</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">A GUI for designing videogames</button>
+                <br><br>
+                
+            </div>
+        </div>
+
+        <div class="card col-6" class="question" id="q5">
+            <div class="cardHeader">
+                <h2>Question 5</h2>
+            </div>
+            <hr>
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>True or False: Javascript makes me want to drink.</h3>
+                <br><br>
+                <!-- Question answers -->
+                <button type="button" class="answer correct btn btn-primary">True</button>
+                <br><br>
+                <button type="button" class="answer btn btn-primary">False</button>
+                <br><br>
+                
+            </div>
+        </div>
+
+        <div class="card col-6" class="question" id="end">
+            <div class="cardHeader">
+                <h2>You're finished!</h2>
+            </div>
+            <hr>
+            <div class="cardBody">
+                <!-- Question text -->
+                <h3>Enter your initials and save your score.</h3>
+                <br><br>
+                <!-- Question answers -->
+                <input class="form-control" type="text" placeholder="Default input">
+                <br>
+                <button class="btn btn-danger"><a href="high-scores.html" style="color: white">See high scores</a></button>
+                <br><br>
+
+            </div>
         </div>
     </div>
 </body>

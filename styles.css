@@ -1,0 +1,15 @@
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#title{
+    font-size: 50px;
+}
+
+#highScores{
+    font-size: 20px;
+    position: relative;
+    margin-left: 62rem;
+    text-decoration: none;
+}
