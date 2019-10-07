@@ -39,15 +39,17 @@ scoreCount();
 
 //create variable for questions and correct answers in questions.js
 
-//show one card at a time
+//show one card at a time (no idea how to do this)
 
-//if user selects an answer show the next card
+//if user selects an answer show the next card (my best guess)
 function next(){
     var questions = ["#start", "#q1", "#q2", "#q3", "#q4", "#q5", "#end"]
+    for (var i=0; i<questions.length; i++)
     if document.getElementsByClassName("btn").onclick{
-        append.nextQuestion[i]++;
+        .container.append.questions;
     }
 };
+
 
 
 
