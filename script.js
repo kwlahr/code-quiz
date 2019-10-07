@@ -17,7 +17,8 @@ function startTimer(duration, display) {
 }
 
 //can't get this to work
-document.getElementById("start").addEventListener(('click'),startTimer (duration, display)){
+var start = document.getElementById("start")
+document.getElementById(start).addEventListener(('click'),startTimer (duration, display));{
     var oneFifteen = 60 * 1.25,
         display = document.querySelector('#timer');
     startTimer(oneFifteen, display);
@@ -28,10 +29,10 @@ startTimer();
 
 function scoreCount(){
     var score = 0;
-    if document.getElementById('correct').onclick{
-        console.log score++;
+    if (document.getElementById('correct').onclick){
+        console.log ;score++;
     }
-    else timer = document.getElementById("timer").innerText = (oneFifteen - 15000ms)
+    else timer = document.getElementById("timer").innerText = (oneFifteen - "15000ms")
 
 };
 
@@ -45,10 +46,12 @@ scoreCount();
 function next(){
     var questions = ["#start", "#q1", "#q2", "#q3", "#q4", "#q5", "#end"]
     for (var i=0; i<questions.length; i++)
-    if document.getElementsByClassName("btn").onclick{
-        .container.append.questions;
+    if (document.getElementsByClassName("btn").onclick){
+        container.append.questions;
     }
 };
+
+
 
 
 

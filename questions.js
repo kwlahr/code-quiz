@@ -13,12 +13,12 @@ var questions = [
         title: "What is CSS?",
         choices: ["A coding language used to add styles to HTML", "A Columbian Warship", "That dude that wrote the Chronicles of Narnia?", "A secret government code used during World War 2"],
         answer: "A coding language used to add styles to HTML"
-    }
+    },
     {
         title: "What is a Web Browser?",
         choices: ["A software application that allows a user to access websites via a URL", "A person who is obsessed with spiders", "A coding language", "A GUI for designing videogames"],
         answer: "A software application that allows a user to access websites via a URL"
-    }
+    },
     {
         title: "True or False: Javascript makes me want to drink.",
         choices: ["True", "False"],
