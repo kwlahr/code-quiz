@@ -17,23 +17,37 @@ function startTimer(duration, display) {
 }
 
 //can't get this to work
-document.getElementById("start").addEventListener('click',startTimer (duration, display) {
+document.getElementById("start").addEventListener(('click'),startTimer (duration, display)){
     var oneFifteen = 60 * 1.25,
         display = document.querySelector('#timer');
     startTimer(oneFifteen, display);
 };
 
+startTimer();
+
 
 function scoreCount(){
-    var score = x;
-    if document.getElementById("correct").onclick{
-        return score++;
+    var score = 0;
+    if document.getElementById('correct').onclick{
+        console.log score++;
     }
     else timer = document.getElementById("timer").innerText = (oneFifteen - 15000ms)
 
 };
 
+scoreCount();
+
+//create variable for questions and correct answers in questions.js
+
+//show one card at a time
+
+//if user selects an answer show the next card
+function next(){
+    var questions = ["#start", "#q1", "#q2", "#q3", "#q4", "#q5", "#end"]
+    if document.getElementsByClassName("btn").onclick{
+        append.nextQuestion[i]++;
+    }
+};
 
 
-//create variable for questions and correct answers
-//create array of questions to append to container sequentially
+
