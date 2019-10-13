@@ -20,3 +20,7 @@ li{
     margin-left: 62rem;
     text-decoration: none;
 }
+
+.display{
+    display: none;
+}
